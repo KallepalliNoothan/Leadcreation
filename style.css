@@ -14,10 +14,6 @@ input,label {
     height: 30px;
 }
 
-input {
-    required: true;
-}
-
 label {
     color:green;
 }
@@ -41,4 +37,9 @@ form{
     border:2px solid #704caf;
     padding: 20px;
 
+}
+
+.g-recaptcha {
+    display: flex;
+    justify-content: center;
 }
